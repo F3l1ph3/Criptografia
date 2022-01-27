@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+:root{
+    /* Paleta de cores  */
+    --cor0: #ffffff;
+    --cor1: #e9d7b2;
+    --cor2: #f1bd80;
+    --cor3: #fda138f6;
+    --cor4: #eb720e;
+    --cor5: #c06012;
+    --cor6: #804311;
+    --cor7: #502706;
+    --cor8: #301906;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    position: absolute;
+    width: 100%;
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    background-color: var(--cor1);
+}
+
+                /* Cabecalho */
+header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+
+}
+
+h1 {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    color: var(--cor0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    color: var(--cor0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.titulo{
+    position: relative;
+    width: 70%;
+    max-width: 960px;
+    height: 75px;
+    top: 18px;
+    background-color: var(--cor7);
+    margin: auto;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.subtitulo {
+    position: relative;
+    width: 70%;
+    max-width: 960px;
+    height: 35px;
+    top:20px;
+    background-color: var(--cor4);
+    margin: auto;
+    border-end-start-radius: 1em;
+    border-end-end-radius: 1em;
+}
+
+                /* Corpo da pag */
+main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Caixas de texto */
+form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form{
+    position: relative;
+    left: 13.2%;
+
+}
+
+.msg{
+    position: relative;
+    left: 58%;
+}
+
+.box{
+    position: absolute;
+    background-color: var(--cor1);
+    top: 14%;
+    width: 28%;
+    height: 70%;
+    border-radius: 1em;
+    
+}
+
+textarea{
+    border: none;
+    padding: 7.5%;
+    border-radius: 0.5em;
+    background-color: var(--cor1);
+    outline-color: var(--cor6);
+    color: var(--cor7);
+    font-size: larger;
+    width: 85.1%;
+    height: 69.5%;
+    resize: none;
+    
+}
+
+.detetive-element{
+    position: absolute;
+    left: 37.3%;
+    top: 15%;
+    width: 25%;
+    height: 66%;
+    
+}
+#mensagem::placeholder{
+    color: var(--cor5);
+}
+/* Botoes */
+.btn{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 12%;
+    top: .8%;
+    
+}
+
+.bto{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: medium;
+    color: var(--cor0);
+    background-color: var(--cor4);
+    transition: background-color .2s;
+    width: 48%;
+    height: 100%;
+    top: .8%;
+}
+
+#botao-criptografar{
+    margin-left: 1.5%;
+}
+
+#botao-descriptografar{
+    margin-right: 1.5%;
+    margin-left: 1%;
+}
+
+#botao-copiar{
+    margin-left: 26%;
+    height: 12%;
+}
+
+.bto:hover{
+    background-color: var(--cor5);
+}
+
+.bto:active{
+    background-color: var(--cor3);
+}
+
+/* Fundo */
+picture{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#fundo-letras{
+    position: relative;
+    width: 90%;
+    max-width: 1207px;
+    margin-left: 5%;
+    border-radius: 1em;
+}
+.box-fundo{
+    width: 100%;
+    height: 100%;
+}
+
+                /* Rodape */
+footer{
+    position: relative;
+    background-color: var(--cor7);
+    width: 100%;
+    max-width: 1366px;
+    height: 150px;
+    margin: auto;
+    top: 25px;
+}
+
+.dev-box{
+    position: relative;
+    background-color: var(--cor4);
+    width: 80%;
+    min-width: 270px;
+    max-width: 350px;
+    height: 50px;
+    margin: auto;
+    top: 27px;
+    border-radius: .8em;
+}
+
+.dev-text{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 15px;
+    border-left-width: 20px;
+}
+
+.contato-box{
+    position: relative;
+    display: flex;
+    background-color: var(--cor4);
+    border-radius: .6em;
+    width: 6%;
+    min-width: 80px;
+    height: 40px;
+    top: 36px;
+    margin: auto;
+}
+
+strong{
+    color: var(--cor0);
+}
+
+.fab{
+    font-size: 30px;
+    color: var(--cor0);
+}
+
+/* Icones */
+i.fa-github{
+    position: relative;
+    margin: auto;
+}
+
+i.fa-linkedin{
+    position: relative;
+    margin: auto;
+}

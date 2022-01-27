@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon da pagina -->
+        <link rel="shortcut icon" href="imagens/icon/favicon.ico" type="image/x-icon">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/position.css">
+        <!-- Foteawesome -->
+        <script src="https://kit.fontawesome.com/2619c41bb0.js" crossorigin="anonymous"></script>
+        <!-- Titulo da pagina -->
+        <title>Decodificador</title>
+    </head>
+
+    <body class="bg">
+        <!-- cabecalho-->
+        <header class="box-titulo">
+            <div class="titulo">
+                <br><h1>Decodificando</h1><br>
+            </div>
+            <div class="subtitulo">
+                <h2>Criptografe suas mensagens</h2>
+            </div>
+        </header>
+        <main>
+            <!-- Background com letras -->
+            <section class="box-fundo">
+                <picture>
+                    <source media="(max-width: 900px)" srcset="imagens/background/background-letras-vertical.png">
+                    <img id="fundo-letras" src="imagens/background/background-letras.png" alt="background-letras">
+                </picture>
+                <div class="grupo">
+                    <!-- box "Formulario" -->
+                    <div class="form box">
+                        <form class="criptografar">
+                            <textarea id="mensagem" type="text" placeholder="Inserir texto" accept-charset="UTF-8"></textarea>
+                            <div class="btn">
+                                <button id="botao-criptografar" class="bto"><b>Criptografar</b></button>
+                                <button id="botao-descriptografar" class="bto"><b>Descriptografar</b></button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- box "Mensagem criptografada" -->
+                    <div class="msg box">
+                        <textarea id="mensagem-criptografada" type="text" accept-charset="UTF-8"></textarea>
+                        <button id="botao-copiar" class="bto"><b>Copiar</b></button>
+                    </div>
+                </div>
+                <!-- Bacground sobreposto - detetive -->
+                <div>
+                    <img class="detetive-element" src="imagens/background/detetive-element.png" alt="detetive-element">
+                </div>
+            </section>
+        </main>    
+            <!-- Rodape -->
+        <footer>
+            <!-- Dev. nome -->
+            <div class="dev-box">
+                <p class="dev-text">Site desenvolvido por <strong>Feliphe Cruz de Lima</strong></p>
+            </div>
+            <!-- info para contato-->
+            <div class="contato-box">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </footer>
+        <!-- Script -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

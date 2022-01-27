@@ -1,0 +1,173 @@
+
+                /* Responsividade */
+
+@media screen and (max-width: 950px) {
+    .bto{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    /* Cabecalho */
+    header{
+        height: 140px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .titulo{
+        height: 70px;
+        width: 85%;
+    }
+
+    .subtitulo {
+        height: 30px;
+        width: 85%;
+    }
+
+    /* Caixas de texto */
+    .box{
+        height: 38%;
+    }
+
+    .form{
+        left: 20%;
+        top: 8%;
+        width: 60%;
+    }
+    
+    .msg{
+        left: 20%;
+        top: 52%;
+        width: 60%;
+    }
+
+    textarea{
+        height: 67.8%;
+    }
+
+    /* Fundo - Letras */
+    #fundo-letras{
+        width: 80%;
+        margin-left: 10%;
+        height: 20%;
+    }
+    .detetive-element{
+        display: none;
+    }
+
+    /* Rodape */
+    footer{
+        height: 100px;
+    }
+    .dev-box{
+        top: 15px;
+        height: 40px;
+    }
+    
+    .dev-text{
+        font-size: 13px;
+        top: 12px;
+    }
+    
+    .contato-box{
+        top: 20px;
+        height: 30px;
+        width: 60px;
+        min-width: 60px;
+    }
+    
+    .fab{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    /* Cabecalho */
+    header{
+        height: 115px;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    .titulo{
+        height: 50px;
+        width: 85%;
+    }
+
+    .subtitulo {
+        height: 25px;
+        width: 85%;
+    }
+
+    /* Rodape */
+    footer{
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    /* Cabecalho */
+    header{
+        height: 90px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .titulo{
+        height: 30px;
+        width: 85%;
+        border-top-left-radius: .5em;
+        border-top-right-radius: .5em;
+    }
+
+    .subtitulo {
+        height: 20px;
+        width: 85%;
+        border-end-end-radius: .5em;
+        border-end-start-radius: .5em;
+    }
+
+    .dev-box{ 
+        height: 35px;
+    }
+    .dev-text{
+        line-height: 10px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 359px) {
+    .bto{
+        font-size: x-small;
+    }
+
+}
