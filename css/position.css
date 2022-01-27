@@ -2,6 +2,7 @@
                 /* Responsividade */
 
 @media screen and (max-width: 950px) {
+    /* Botoes */
     .bto{
         font-size: small;
     }
@@ -60,6 +61,7 @@
         margin-left: 10%;
         height: 20%;
     }
+
     .detetive-element{
         display: none;
     }
@@ -68,6 +70,7 @@
     footer{
         height: 100px;
     }
+
     .dev-box{
         top: 15px;
         height: 40px;
@@ -106,6 +109,7 @@
     h2 {
         font-size: 18px;
     }
+
     .titulo{
         height: 50px;
         width: 85%;
@@ -151,21 +155,19 @@
         border-end-end-radius: .5em;
         border-end-start-radius: .5em;
     }
-
+    /* Rodape */
     .dev-box{ 
         height: 35px;
     }
+
     .dev-text{
         line-height: 10px;
     }
 
-
-
-
-
 }
 
 @media screen and (max-width: 359px) {
+    /* Botoes */
     .bto{
         font-size: x-small;
     }

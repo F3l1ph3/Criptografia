@@ -5,7 +5,7 @@ let btoCriptografar = document.querySelector("#botao-criptografar");
 let btoDesciptografar = document.querySelector("#botao-descriptografar");
 let btoCopiar = document.querySelector("#botao-copiar");
 
-//bto criptografar
+//Criptografar
 btoCriptografar.addEventListener("click", (event) =>{
 
 	event.preventDefault();
@@ -36,7 +36,7 @@ btoCriptografar.addEventListener("click", (event) =>{
 
 });
 
-//bto descriptografar
+//Descriptografar
 btoDesciptografar.addEventListener("click", (event) =>{
 
 	event.preventDefault();
@@ -72,7 +72,7 @@ btoDesciptografar.addEventListener("click", (event) =>{
 
 });
 
-//bto copiar
+//Copiar
 btoCopiar.addEventListener("click", (event) =>{
 
 	event.preventDefault();
@@ -82,4 +82,5 @@ btoCopiar.addEventListener("click", (event) =>{
 	document.execCommand('copy');
 	//desselecionando a area de texto
 	window.getSelection().removeAllRanges();
+	
 });
